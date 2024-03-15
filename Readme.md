@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Кирилл Яковлев](https://up.htmlacademy.ru/htmlcss-individual/1/user/2506383).
-* Наставник: `Неизвестно`.
+* Наставник: [Антон Попов](https://up.htmlacademy.ru/profession/frontender-individual/1/htmlcss-individual/1/user/78239).
 
 ---
 
