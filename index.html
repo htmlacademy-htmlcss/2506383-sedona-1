@@ -8,21 +8,21 @@
 
   <body>
 
-    <header class="page-header">
+    <header class="header">
       <nav class="navigation">
         <a class="navigation-logo" href="#">
-          <img src="#" class="page-header-logo" alt="логотип Sedona">
+          <img class="header-logo" src="#" alt="логотип Sedona">
         </a>
         <nav class="navigation-menu">
-          <a class="navigation-link navigation-link_current" href="#">Главная</a>
+          <a class="navigation-link active" href="#">Главная</a>
           <a class="navigation-link" href="#">О седоне</a>
           <a class="navigation-link" href="#">Гостиницы</a>
         </nav>
         <nav class="navigation-user">
-          <a class="navigation-link" href="#">
+          <a class="navigation-link" aria-label="Поиск" href="#">
             <span class="visually-hidden">Поиск</span>
           </a>
-          <a class="navigation-link" href="#">
+          <a class="navigation-link" aria-label="Избранное" href="#">
             <span class="visually-hidden">Избранное</span>
           </a>
           <a class="login-link" href="#">Хочу сюда!</a>
@@ -30,7 +30,7 @@
       </nav>
     </header>
 
-    <main class="main-index">
+    <main class="main main-background-image">
       <img src="#" class="promo-image" src="#" alt="промо Седона">
       <section class="advantages">
         <header class="advantages-header">
@@ -90,12 +90,12 @@
         <h3 class="search-hotel-title">Заинтересовались ?</h3>
         <p class="seatch-hotel-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения
           гостиниц в Седоне</p>
-        <button class="search-hotel-button" type="button">Поиск гостиницы в Седоне</button>
+        <a class="search-hotel" href="#">Поиск гостиницы в Седоне</a>
       </section>
     </main>
 
     <footer class="footer">
-      <div class="subscribe subscribe-background">
+      <div class="subscribe subscribe-background-image">
         <h2 class="subscribe-title">
           Подпишитесь на рассылку
         </h2>
@@ -109,30 +109,19 @@
       </div>
 
       <div class="footer-list">
-        <ul class="social-links">
-          <li class="social-link-item">
-            <a class="social-link" href="#">
-              <span class="visually-hidden">Вконтакте</span>
-            </a>
-          </li>
-          <li class="social-link-item">
-            <a class="social-link" href="#">
-              <span class="visually-hidden">Телеграм</span>
-            </a>
-          </li>
-          <li class="social-link-item">
-            <a class="social-link" href="#">
-              <span class="visually-hidden">Ютуб</span>
-            </a>
-          </li>
-          <li class="social-link-item">
-            <a class="social-link" href="#">
-              <span class="visually-hidden">Ютуб</span>
-            </a>
-          </li>
-        </ul>
+        <nav class="social-links">
+          <a class="social-link social-vk-image" e href="#">
+            <span class="visually-hidden">Вконтакте</span>
+          </a>
+          <a class="social-link social-telegram-image"  href="#">
+            <span class="visually-hidden">Телеграм</span>
+          </a>
+          <a class="social-link social-youtube-image"  href="#">
+            <span class="visually-hidden">Ютуб</span>
+          </a>
+        </nav>
         <a href="tel:+78128121212">+7 (812) 812-12-12</a>
-        <img src="#" class="copyright-logo-htmlacademy">htmlacademy</img>
+        <a class="copyright" href="#">htmlacademy</a>
       </div>
 
     </footer>
