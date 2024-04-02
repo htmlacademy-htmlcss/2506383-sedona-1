@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/style.css">
   </head>
 
   <body>
@@ -11,7 +12,7 @@
     <header class="header">
       <nav class="navigation">
         <a class="navigation-logo" href="#">
-          <img class="header-logo" src="#" alt="логотип Sedona">
+          <img class="header-logo" src="images/nav/logo.svg" alt="логотип Sedona">
         </a>
         <nav class="navigation-menu">
           <a class="navigation-link active" href="#">Главная</a>
@@ -19,27 +20,24 @@
           <a class="navigation-link" href="#">Гостиницы</a>
         </nav>
         <nav class="navigation-user">
-          <a class="navigation-link" aria-label="Поиск" href="#">
-            <span class="visually-hidden">Поиск</span>
-          </a>
-          <a class="navigation-link" aria-label="Избранное" href="#">
-            <span class="visually-hidden">Избранное</span>
-          </a>
+          <a class="navigation-link-search" aria-label="Поиск" href="#"></a>
+          <a class="navigation-link-favorite" aria-label="Избранное" href="#"></a>
           <a class="login-link" href="#">Хочу сюда!</a>
         </nav>
       </nav>
     </header>
 
     <main class="main main-background-image">
-      <img src="#" class="promo-image" src="#" alt="промо Седона">
+      <img class="promo-image" src="images/welcome.svg" alt="промо Седона">
+      <img class="divider" src="images/divider.svg" alt="разделитель">
       <section class="advantages">
         <header class="advantages-header">
-          <h1 class="advantages-header-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
-          <p class="advantages-header-description">Рассмотрим причины, по которым Седона круче, чем гранд каньон!</p>
+          <h1>Седона — небольшой городок в Аризоне,<br> заслуживающий большего!</h1>
+          <p>Рассмотрим причины, по которым Седона круче, чем гранд каньон!</p>
         </header>
 
-        <section class="advantages-item">
-          <h2 class="advantages-title">Настоящий городок</h2>
+        <section class="advantages-item-blue">
+          <h2 class="advantages-title">Настоящий<br> городок</h2>
           <p class="advantages-description">Седона - не аттракцион для туристов, там течёт своя жизнь</p>
           <img class="advantages-image" src="images/advantages/photo-1.jpg" alt="городок">
         </section>
@@ -55,72 +53,71 @@
           <h2 class="advantages-title">Мало туристов</h2>
           <p class="advantages-description">Большинство едет в Гранд Каньон и толпится там</p>
         </section>
-        <section class="advantages-item">
+        <section class="advantages-item-blue">
           <h2 class="advantages-title">Там есть мост дьявола</h2>
           <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
           <img class="advantages-image" src="images/advantages/photo-2.jpg" alt="мост дьявола">
         </section>
-
-        <section class="advantages-footer">
-          <h2 class="advantages-header-title">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
-          <p class="advantages-header-description">Опытный персонал и качественное обслуживание!</p>
-        </section>
       </section>
+
+      <header class="catalog-header">
+        <h2>Приезжайте в Седону отдохнуть<br> в комфорте и уюте!</h2>
+        <p>Опытный персонал и качественное обслуживание!</p>
+      </header>
 
       <article class="catalog">
         <h2 class="catalog-page">
           <span class="visually-hidden">Cтраница каталога</span>
         </h2>
         <article class="catalog-item catalog-house-image">
-          <h2 class="catalog-title">Жильё</h2>
+          <h3 class="catalog-title">Жильё</h3>
           <p class="catalog-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
         </article>
         <article class="catalog-item catalog-food-image">
-          <h2 class="catalog-title">Еда</h2>
-          <p class="catalog-description">Всегда заказываеейте топовый фирменный бургер, вы не разочаруетесь!</p>
+          <h3 class="catalog-title">Еда</h3>
+          <p class="catalog-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
         </article>
         <article class="catalog-item catalog-gift-image">
-          <h2 class="catalog-title">Сувениры</h2>
+          <h3 class="catalog-title">Сувениры</h3>
           <p class="catalog-description">не только китайского но и настоящего местного производства!</p>
         </article>
       </article>
 
-      <section class="search-hotel-sedona">
-        <h2 class="visually-hidden">Поиск гостиницы Седона</h2>
-        <h3 class="search-hotel-title">Заинтересовались ?</h3>
-        <p class="seatch-hotel-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения
+      <header class="search-hotel-sedona">
+        <h2>Заинтересовались ?</h2>
+        <p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения
           гостиниц в Седоне</p>
         <a class="search-hotel" href="#">Поиск гостиницы в Седоне</a>
-      </section>
+      </header>
     </main>
 
     <footer class="footer">
       <div class="subscribe subscribe-background-image">
-        <h2 class="subscribe-title">
+        <h2>
           Подпишитесь на рассылку
         </h2>
-        <p class="subscribe-description">
-          Только полезная информация и никакого спама, честное бойскаутское!
+        <p>
+          Только полезная информация и никакого спама,<br> честное бойскаутское!
         </p>
         <form class="subscribe-form">
-          <input type="email" class="form-email" placeholder="Ваш e-mail">
-          <button class="subscribe-form-button" type="submit">Подписаться</button>
+          <input type="email" class="email" placeholder="Ваш e-mail">
+          <button class="subscribe-button" type="submit">Подписаться</button>
         </form>
       </div>
 
       <div class="footer-list">
         <nav class="social-links">
-          <a class="social-link social-vk-image" e href="#">
+          <a class="social-link social-vk-image" href="#">
             <span class="visually-hidden">Вконтакте</span>
           </a>
-          <a class="social-link social-telegram-image"  href="#">
+          <a class="social-link social-telegram-image" href="#">
             <span class="visually-hidden">Телеграм</span>
           </a>
-          <a class="social-link social-youtube-image"  href="#">
+          <a class="social-link social-youtube-image" href="#">
             <span class="visually-hidden">Ютуб</span>
           </a>
         </nav>
-        <a href="tel:+78128121212">+7 (812) 812-12-12</a>
+        <a class="tel" href="tel:+78128121212">+7 (812) 812-12-12</a>
         <a class="copyright" href="#">htmlacademy</a>
       </div>
 

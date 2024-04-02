@@ -1,0 +1,255 @@
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.navigation-menu {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.navigation-link {
+
+  text-decoration: none;
+  color: black;
+}
+
+.login-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  background-color: #756157;
+  padding: 8px 35px;
+  text-decoration: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  color: white;
+}
+
+.main-background-image {
+  background: url("../images/main-background.jpg") no-repeat;
+  background-size: 100% auto;
+
+}
+
+.advantages-header {
+  text-align: center;
+}
+
+.advantages-header h1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+
+}
+
+.advantages-header p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.advantages-item-blue {
+  width: 400px;
+  height: 385px;
+  background-color: #82B3D3;
+  color: white;
+
+}
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+
+}
+
+.advantages-description {
+  font-weight: 400;
+  color: #333333;
+}
+
+.advantages-item {
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item-color {
+  background: rgba(131, 179, 211, 0.2);
+}
+
+.catalog-header {
+  text-align: center;
+}
+
+.catalog-header h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+
+}
+
+.catalog-header p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.catalog-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.catalog-description {
+  font-weight: 400;
+  color: #333333;
+}
+
+.search-hotel-sedona {
+  text-align: center;
+}
+
+.search-hotel-sedona h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+
+}
+
+.search-hotel-sedona p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.search-hotel {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  background-color: #756157;
+  padding: 8px 50px;
+  text-decoration: none;
+  border-radius: 4px;
+  color: white;
+}
+
+
+.subscribe-background-image {
+  background: url("../images/Subscribe-background.png") no-repeat;
+  background-size: 100% auto;
+
+}
+
+.subscribe {
+
+  text-align: center;
+  color: white
+}
+
+.subscribe h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  padding-top: 96px;
+}
+
+.subscribe p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  padding-top: 20px;
+
+}
+
+
+.email {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 14px 345px 14px 20px;
+
+}
+
+
+.subscribe-button {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 0px 4px 4px 0px;
+  color: white;
+  background-color: #82B3D3;
+  padding: 8px 50px;
+}
+
+.subscribe-form {
+  padding-top: 54px;
+  padding-bottom: 104px;
+}
+
+
+.social-vk-image {
+
+  background: url("../images/socials/vk.svg") no-repeat;
+
+}
+
+.social-telegram-image {
+
+  background: url("../images/socials/telegram.svg") no-repeat;
+
+}
+
+.social-youtube-image {
+
+  background: url("../images/socials/youtube.svg") no-repeat;
+
+}
+
+.tel {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+.copyright {
+  background: url("../images/copyright-logo.svg") no-repeat;
+}
+
+.footer-list {
+  height: 120px;
+}
