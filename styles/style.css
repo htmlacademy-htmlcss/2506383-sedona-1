@@ -144,7 +144,6 @@ body {
 }
 
 .search-hotel-sedona p {
-  font-weight: 400;
   font-size: 22px;
   line-height: 1.21;
   color: var(--gray);
@@ -170,7 +169,6 @@ body {
 }
 
 .subscribe {
-
   text-align: center;
   color: white
 }
@@ -204,7 +202,7 @@ body {
   font-size: 20px;
   text-align: center;
   line-height: 1.8;
-  border-radius: 0px 4px 4px 0px;
+  border-radius: 0 4px 4px 0;
   color: white;
   background-color: var(--blue);
   padding: 8px 50px;
@@ -235,7 +233,6 @@ body {
 }
 
 .tel {
-  font-weight: 400;
   font-size: 40px;
   text-transform: uppercase;
   text-decoration: none;
