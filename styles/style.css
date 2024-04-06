@@ -19,9 +19,16 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 body {
-  font-family: "PT Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   margin: 0;
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 1.17;
 }
@@ -48,6 +55,10 @@ body {
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   color: white;
+}
+
+.main-container {
+  flex-grow: 1;
 }
 
 .main-background-image {
