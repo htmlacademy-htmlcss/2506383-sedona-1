@@ -187,6 +187,82 @@
       </footer>
       </section>
     </div>
+
+    <div class="modal-container modal-container-close">
+      <section class="modal">
+        <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+        <button class="modal-close" type="button">
+          <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M14.4907 1.78279L13.1984 0.490479L7.49072 6.19817L1.78303 0.490479L0.490723 1.78279L6.19842 7.49048L0.490723 13.1982L1.78303 14.4905L7.49072 8.78279L13.1984 14.4905L14.4907 13.1982L8.78303 7.49048L14.4907 1.78279Z"
+              fill="black" />
+          </svg>
+        </button>
+        <div class="modal-auth">
+          <form class="modal-auth-form" action="https://echo.htmlacademy.ru/" method="post">
+            <div class="label-wrapper-date">
+              <label for="date-start">Дата заезда:</label>
+              <input class="auth-form-field" type="text" name="date-start" id="date-start" placeholder="27 апреля 2020">
+              <span class="alert-error">Мы не можем отправить вас в прошлое.</span>
+            </div>
+            <div class="label-wrapper-date">
+              <label for="date-end">Дата выезда:</label>
+              <input class="auth-form-field" type="text" name="date-end" id="date-end" placeholder="1 сентября 2021">
+              <span class="alert">На эти даты есть свободные номера. Пока есть.</span>
+            </div>
+            <div class="label-wrapper">
+              <div class="clients-wrapper">
+                <label for="clients-older-field">Взрослые:</label>
+                <input class="auth-form-field" type="number" name="clients-older" id="clients-older-field"
+                  placeholder="2">
+                <span class="button-counter-wrapper">
+                  <button class="button-counter" type="button">
+                    <svg class="clients clients-minus" width="15" height="2" viewBox="0 0 15 2" fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.392822 0L0.392822 2L14.3928 2V0L0.392822 0Z" fill="currentColor" />
+                    </svg>
+                  </button>
+                  <button class="button-counter" type="button">
+                    <svg class="clients clients-plus" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z" fill="black" />
+                    </svg>
+                  </button>
+                </span>
+              </div>
+              <div class="clients-wrapper">
+                <div class="form-label-icon">
+                  <label for="clients-child-field">Дети:</label>
+                  <div class="tooltip">
+                    <button class="tooltip-toggle" type="button">i</button>
+                    <p class="tooltip-text">Укажите количество детей, которые будут
+                      с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</p>
+                  </div>
+                </div>
+                <input class="auth-form-field" type="number" name="clients-child" id="clients-child-field"
+                  placeholder="1">
+                <div class="button-counter-wrapper">
+                  <button class="button-counter" type="button">
+                    <svg class="clients clients-minus" width="15" height="2" viewBox="0 0 15 2" fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.392822 0L0.392822 2L14.3928 2V0L0.392822 0Z" fill="currentColor" />
+                    </svg>
+                  </button>
+                  <button class="button-counter" type="button">
+                    <svg class="clients clients-plus" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z" fill="black" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <button class="modal-button-submit" type="submit">Найти</button>
+          </form>
+        </div>
+      </section>
+    </div>
+
   </body>
 
 </html>
