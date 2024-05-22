@@ -485,14 +485,11 @@ input:focus {
 }
 
 .modal-title {
-  display: inline-block;
   width: 500px;
   margin: 0;
-  margin-bottom: 59px;
-  padding: 0;
+  margin-bottom: 64px;
   font-weight: 700;
   font-size: 30px;
-  line-height: 2.5;
   text-transform: uppercase;
   color: #000000;
   background-color: #FFFFFF;
