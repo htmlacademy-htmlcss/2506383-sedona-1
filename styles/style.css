@@ -698,7 +698,7 @@ input:focus {
 }
 
 .clients {
-  fill: rgba(0, 0, 0, 0.3);
+  color: rgba(117, 97, 87, 0.3)
 }
 
 .modal-button-submit {
