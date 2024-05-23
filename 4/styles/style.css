@@ -174,6 +174,7 @@ body {
 
 .advantages-header {
   text-align: center;
+  margin: 69px 0;
 }
 
 .advantages-header h1 {
@@ -555,7 +556,6 @@ input:focus {
   background-image: url('../images/modal/date.svg');
   background-repeat: no-repeat;
   background-position: right 19px center;
-  fill: rgba(0, 0, 0, 0.3);
 }
 
 .auth-form-field[type="text"]:hover {
