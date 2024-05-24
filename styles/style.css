@@ -145,7 +145,7 @@ body {
 }
 
 .main-background-image {
-  background: url("../images/main-background.jpg") no-repeat;
+  background: url('"../images/main-background.jpg"') no-repeat;
   background-size: 100% auto;
 }
 
@@ -466,9 +466,9 @@ input:focus {
   background-color: rgba(242, 242, 242, 0.8);
 }
 
-/* .modal-container-close {
+.modal-container-close {
   display: none;
-} */
+}
 
 .modal {
   position: relative;
