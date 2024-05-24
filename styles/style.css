@@ -38,7 +38,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-color: #fff;
-  box-shadow: 0 0 10px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
 
 .visually-hidden {
@@ -145,7 +145,7 @@ body {
 }
 
 .main-background-image {
-  background: url('"../images/main-background.jpg"') no-repeat;
+  background: url("../images/main-background.jpg") no-repeat;
   background-size: 100% auto;
 }
 
@@ -323,7 +323,7 @@ body {
 }
 
 .subscribe-background-image {
-  background: #1f1f1f url("../images/Subscribe-background.png") no-repeat;
+  background: #1f1f1f url("../images/subscribe-background.png") no-repeat;
   background-size: cover;
 }
 
