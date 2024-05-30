@@ -1,5 +1,5 @@
 :root {
-  --blue: #82B3D3;
+  --blue: #82b3d3;
   --gray: #333333;
 }
 
@@ -37,7 +37,7 @@ body {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #fff;
+  background-color: #ffffff;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -56,7 +56,7 @@ body {
 .navigation-link {
   margin: 16px;
   text-decoration: none;
-  color: black;
+  color: #000000;
 }
 
 .active {
@@ -84,13 +84,13 @@ body {
 }
 
 .navigation-link-search {
-  background: url(../images/nav/search.svg) no-repeat;
+  background: url("../images/nav/search.svg") no-repeat;
   width: 20px;
   height: 20px;
 }
 
 .navigation-link-favorite {
-  background: url(../images/nav/favorite.svg) no-repeat;
+  background: url("../images/nav/favorite.svg") no-repeat;
   position: relative;
   width: 18px;
   height: 17px;
@@ -117,8 +117,8 @@ body {
   height: 20px;
   border-radius: 50%;
   font-size: 10px;
-  color: white;
-  background-color: #7DB54F;
+  color: #ffffff;
+  background-color: #7db54f;
 }
 
 .login-link {
@@ -130,7 +130,7 @@ body {
   padding: 8px 35px;
   text-decoration: none;
   border-radius: 4px;
-  color: white;
+  color: #ffffff;
 }
 
 .promo-image {
@@ -206,7 +206,7 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: var(--blue);
-  color: white;
+  color: #ffffff;
 }
 
 .advantages-item-blue.reverse {
@@ -324,7 +324,7 @@ body {
   padding: 13px 50px;
   text-decoration: none;
   border-radius: 4px;
-  color: white;
+  color: #ffffff;
 }
 
 .search-hotel:hover,
@@ -341,7 +341,7 @@ body {
 
 .search-hotel:focus,
 .login-link:focus {
-  outline: 3px solid #83B3D3;
+  outline: 3px solid #83b3d3;
 }
 
 
@@ -353,7 +353,7 @@ body {
 .subscribe {
   padding: 100px 258px;
   text-align: center;
-  color: white;
+  color: #ffffff;
 }
 
 .subscribe h2 {
@@ -378,16 +378,16 @@ body {
 }
 
 .email[type="email"]:hover {
-  background-color: #E6E6E6;
+  background-color: #e6e6e6;
 }
 
 .email[type="email"]:focus {
-  background-color: #E6E6E6;
-  outline: 3px solid #83B3D3;
+  background-color: #e6e6e6;
+  outline: 3px solid #83b3d3;
 }
 
 .email[type="email"]:active {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   outline: 3px solid #000000;
 }
 
@@ -411,7 +411,7 @@ body {
 }
 
 .subscribe-button:hover {
-  background-color: #68A2CA;
+  background-color: #68a2ca;
 }
 
 .subscribe-button:active {
@@ -458,13 +458,13 @@ body {
   font-size: 40px;
   text-transform: uppercase;
   text-decoration: none;
-  color: black;
+  color: #000000;
 }
 
 .copyright {
   width: 115px;
   height: 33px;
-  color: black;
+  color: #000000;
 }
 
 .social-links {
@@ -472,12 +472,12 @@ body {
 }
 
 .social-link {
-  color: #83B3D3;
+  color: #83b3d3;
 }
 
 .social-link:hover,
 .social-link:focus {
-  color: #68A2CA;
+  color: #68a2ca;
 }
 
 .social-link:active {
@@ -521,7 +521,7 @@ body {
   width: 575px;
   margin: auto;
   padding: 62px 70px 70px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
   border-radius: 30px;
 }
@@ -539,7 +539,7 @@ body {
   font-size: 30px;
   text-transform: uppercase;
   color: #000000;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .modal-close {
@@ -573,7 +573,7 @@ body {
   font-size: 18px;
   line-height: 2.5;
   color: #000000;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   align-self: center;
   padding-right: 10px;
 }
@@ -592,7 +592,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2.5;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   border-radius: 4px;
   border: none;
 }
@@ -605,16 +605,16 @@ body {
 }
 
 .auth-form-field[type="text"]:hover {
-  background-color: #E6E6E6;
+  background-color: #e6e6e6;
 }
 
 .auth-form-field[type="text"]:focus {
-  background-color: #E6E6E6;
-  outline: 3px solid #83B3D3;
+  background-color: #e6e6e6;
+  outline: 3px solid #83b3d3;
 }
 
 .auth-form-field[type="text"]:active {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   outline: 2px solid #000000;
 }
 
@@ -630,7 +630,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 2.5;
-  color: #FF5757;
+  color: #ff5757;
   margin-left: 20px;
 }
 
@@ -675,7 +675,7 @@ body {
   width: 25px;
   height: 25px;
   border: none;
-  background-color: #83B3D3;
+  background-color: #83b3d3;
   border-radius: 50%;
   color: white;
   background-image: url('../images/modal/tooltip-info.svg');
@@ -686,7 +686,7 @@ body {
 .tooltip-text {
   position: absolute;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #333333;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
@@ -701,7 +701,7 @@ body {
 
 .tooltip-toggle:hover,
 .tooltip-toggle:focus {
-  background-color: #68A2CA;
+  background-color: #68a2ca;
 }
 
 .tooltip-toggle:hover + .tooltip-text,
@@ -759,7 +759,7 @@ body {
   padding: 18px 77px;
   border: none;
   background-color: var(--blue);
-  color: white;
+  color: #ffffff;
   text-transform: uppercase;
   font-size: 20px;
   cursor: pointer;
@@ -767,9 +767,9 @@ body {
 
 .modal-button-submit:hover,
 .modal-button-submit:focus {
-  background-color: #68A2CA;
+  background-color: #68a2ca;
 }
 
 .modal-button-submit:active {
-  background-color: rgb(80, 122, 151);
+  background-color: rgba(104, 162, 202, 1);
 }
