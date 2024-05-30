@@ -686,6 +686,9 @@ input:focus {
   background-color: #83B3D3;
   border-radius: 50%;
   color: white;
+  background-image: url('../images/modal/tooltip-info.svg');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .tooltip-text {
