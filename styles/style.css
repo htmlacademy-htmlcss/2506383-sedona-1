@@ -79,11 +79,8 @@ body {
 }
 
 .navigation-logo {
-  background: url(../images/nav/logo.svg) no-repeat;
   position: relative;
-  margin-bottom: -5px;
-  width: 140px;
-  height: 70px;
+  margin-bottom: -10px;
 }
 
 .navigation-link-search {
