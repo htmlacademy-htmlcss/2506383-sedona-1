@@ -145,7 +145,7 @@ body {
 }
 
 .main-background-image {
-  background: url("../images/main-background.jpg") no-repeat;
+  background: #1f1f1f url("../images/main-background.jpg") no-repeat;
   background-size: 100% auto;
 }
 
@@ -320,17 +320,20 @@ body {
   color: white;
 }
 
-.search-hotel:hover, .login-link:hover {
+.search-hotel:hover,
+.login-link:hover {
   background-color: #615048;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.search-hotel:active, .login-link:active {
+.search-hotel:active,
+.login-link:active {
   background-color: #756157;
   color: rgba(255, 255, 255, 0.3);
 }
 
-.search-hotel:focus, .login-link:focus {
+.search-hotel:focus,
+.login-link:focus {
   outline: 3px solid #83B3D3;
 }
 
@@ -384,6 +387,7 @@ body {
 .subscribe-button:hover {
   background-color: #68A2CA;
 }
+
 .subscribe-button:active {
   color: rgba(255, 255, 255, 0.3);
 }
