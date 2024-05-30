@@ -155,7 +155,7 @@ body {
 }
 
 .main-background-image {
-  background: #1f1f1f url("../images/main-background.jpg") no-repeat;
+  background:#1f1f1f url("../images/main-background.jpg") no-repeat;
   background-size: 100% auto;
 }
 
