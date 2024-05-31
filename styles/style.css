@@ -41,11 +41,6 @@ body {
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
 
-.visually-hidden {
-  position: fixed;
-  transform: scale(0);
-}
-
 .navigation {
   padding: 0 70px;
   display: flex;
@@ -75,7 +70,7 @@ body {
   display: flex;
   align-items: center;
   margin-left: auto;
-  gap: 30px;
+
 }
 
 .navigation-logo {
@@ -87,6 +82,7 @@ body {
   background: url("../images/nav/search.svg") no-repeat;
   width: 20px;
   height: 20px;
+  margin-right: 12px;
 }
 
 .navigation-link-favorite {
@@ -95,6 +91,7 @@ body {
   width: 18px;
   height: 17px;
   display: inline-block;
+  margin-right: 24px;
 }
 
 .navigation-link-favorite::before {
@@ -403,7 +400,7 @@ body {
   width: 232px;
   border: none;
   background-color: var(--blue);
-  color: white;
+  color: #ffffff;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 20px;
@@ -677,7 +674,7 @@ body {
   border: none;
   background-color: #83b3d3;
   border-radius: 50%;
-  color: white;
+  color: #ffffff;
   background-image: url('../images/modal/tooltip-info.svg');
   background-repeat: no-repeat;
   background-position: center;
