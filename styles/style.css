@@ -35,8 +35,7 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 40px;
   background-color: #ffffff;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
@@ -49,7 +48,7 @@ body {
 }
 
 .navigation-link {
-  margin: 16px;
+  margin: 14px;
   text-decoration: none;
   color: #000000;
 }
@@ -70,7 +69,7 @@ body {
   display: flex;
   align-items: center;
   margin-left: auto;
-
+  gap: 30px;
 }
 
 .navigation-logo {
@@ -80,9 +79,8 @@ body {
 
 .navigation-link-search {
   background: url("../images/nav/search.svg") no-repeat;
-  width: 20px;
+  width: 18px;
   height: 20px;
-  margin-right: 12px;
 }
 
 .navigation-link-favorite {
@@ -91,7 +89,6 @@ body {
   width: 18px;
   height: 17px;
   display: inline-block;
-  margin-right: 24px;
 }
 
 .navigation-link-favorite::before {
@@ -108,8 +105,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  top: -10px;
-  right: -10px;
+  top: -12px;
+  right: -7px;
   width: 20px;
   height: 20px;
   border-radius: 50%;
