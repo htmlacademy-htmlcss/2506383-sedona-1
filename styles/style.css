@@ -29,14 +29,14 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 1.17;
-  background-color: #ffffff;
+  background-color: #f2f2f2;
 }
 
 .wrapper {
   display: flex;
   flex-direction: column;
   max-width: 1200px;
-  margin: 0 40px;
+  margin: 0 auto;
   background-color: #ffffff;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
@@ -71,7 +71,7 @@ body {
   display: flex;
   align-items: center;
   margin-left: auto;
-  gap: 29px;
+  gap: 30px;
   max-width: 450px;
 }
 
@@ -89,6 +89,7 @@ body {
   display: flex;
   position: relative;
   color: #000000;
+  margin-left: -4px;
 }
 
 .navigation-link-favorite::before {
@@ -232,8 +233,6 @@ body {
   margin-top: 113px;
 }
 
-
-
 .advantages-text {
   display: flex;
   flex-direction: column;
@@ -272,6 +271,31 @@ body {
   text-align: center;
   width: 400px;
   padding: 80px 0;
+}
+
+.catalog-image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.catalog-item:nth-of-type(1) .catalog-image {
+  background-image: url("../images/catalog/house.svg");
+  width: 75px;
+  height: 72px;
+}
+
+.catalog-item:nth-of-type(2) .catalog-image {
+  background-image: url("../images/catalog/food.svg");
+  width: 75px;
+  height: 72px;
+}
+
+.catalog-item:nth-of-type(3) .catalog-image {
+  background-image: url("../images/catalog/gift.svg");
+  width: 75px;
+  height: 72px;
 }
 
 .catalog-food-img {
@@ -313,7 +337,9 @@ body {
   font-weight: 700;
   font-size: 24px;
   text-transform: uppercase;
-  margin-bottom: 28px;
+  margin: 0;
+  margin-top: 31px;
+  margin-bottom: 29px;
 }
 
 .catalog-description {
@@ -396,7 +422,6 @@ body {
   margin-bottom: 21px;
 }
 
-
 .subscribe p {
   font-size: 22px;
   margin: 0;
@@ -413,7 +438,18 @@ body {
   padding-left: 20px;
 }
 
-
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .email[type="email"]:hover {
   background-color: #e6e6e6;
@@ -428,7 +464,6 @@ body {
   background-color: #ffffff;
 
 }
-
 
 .email:hover::placeholder {
   opacity: 0.6;
@@ -455,7 +490,6 @@ body {
 .subscribe-button:active {
   color: rgba(255, 255, 255, 0.3);
 }
-
 
 .subscribe-form {
   min-height: 52px;
@@ -523,7 +557,7 @@ body {
 .navigation-link-search:hover,
 .navigation-link-search:focus,
 .navigation-link-favorite:hover,
-.navigation-link-favorite:focus{
+.navigation-link-favorite:focus {
   color: #756157;
 }
 
@@ -654,7 +688,7 @@ body {
 
 .auth-form-field[type="text"] {
   padding: 0 40px 1px 19px;
-  background-image: url('../images/modal/date.svg');
+  background-image: url("../images/modal/date.svg");
   background-repeat: no-repeat;
   background-position: right 19px center;
 }
@@ -740,7 +774,7 @@ body {
   background-color: #83b3d3;
   border-radius: 50%;
   color: #ffffff;
-  background-image: url('../images/modal/tooltip-info.svg');
+  background-image: url("../images/modal/tooltip-info.svg");
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 45px;
@@ -782,7 +816,7 @@ body {
   left: 0;
   right: 0;
   margin: 0 auto;
-  background-image: url('../images/modal/arrow-up.svg');
+  background-image: url("../images/modal/arrow-up.svg");
 }
 
 .auth-form-field[type="number"] {
@@ -794,6 +828,10 @@ body {
 .auth-form-field[type="number"]::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+.auth-form-field[type="number"] {
+  -moz-appearance: textfield;
 }
 
 .button-counter-wrapper {
@@ -816,7 +854,7 @@ body {
 }
 
 .clients {
-  color: rgba(117, 97, 87, 0.3)
+  color: rgba(117, 97, 87, 0.3);
 }
 
 .modal-button-submit {
@@ -840,4 +878,5 @@ body {
 
 .modal-button-submit:active {
   background-color: rgba(104, 162, 202, 1);
+  color: rgba(255, 255, 255, 0.3);
 }
